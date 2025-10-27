@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachin | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.7.1/tsparticles.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sachin</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="section hero center">
+    <div id="tsparticles"></div>
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Sachin</span></h1>
+      <h2 id="typing"></h2>
+      <p>Front-End Developer | UI/UX Enthusiast</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section center">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer building responsive and interactive websites.
+      I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+      <br /><br />
+      🎓 Currently a student at <strong>SRM University</strong>, learning and creating innovative web solutions.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="center">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML5</h3>
+        <div class="skill-bar"><div class="skill-fill" data-percent="95%"></div></div>
+      </div>
+      <div class="skill-card">
+        <h3>CSS3 / SCSS</h3>
+        <div class="skill-bar"><div class="skill-fill" data-percent="90%"></div></div>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><div class="skill-fill" data-percent="85%"></div></div>
+      </div>
+      <div class="skill-card">
+        <h3>React.js</h3>
+        <div class="skill-bar"><div class="skill-fill" data-percent="80%"></div></div>
+      </div>
+      <div class="skill-card">
+        <h3>Node.js</h3>
+        <div class="skill-bar"><div class="skill-fill" data-percent="75%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="center">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my skills and projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Student Database Management</h3>
+        <p>Desktop-based Java app to manage student data efficiently with role-based access.</p>
+      </div>
+      <div class="project-card">
+        <h3>To-Do List</h3>
+        <p>A simple task manager using local storage and vanilla JS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONNECT -->
+  <section id="connect" class="section center">
+    <h2>Connect with Me</h2>
+    <div class="social-links">
+      <a href="https://github.com/sachin" target="_blank" class="github">🐱 GitHub</a>
+      <a href="https://linkedin.com/in/sachin" target="_blank" class="linkedin">💼 LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section center">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <div class="input-group">
+        <input type="text" name="from_name" placeholder=" " required />
+        <label>Your Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" name="from_email" placeholder=" " required />
+        <label>Your Email</label>
+      </div>
+      <div class="input-group">
+        <textarea name="message" placeholder=" " rows="5" required></textarea>
+        <label>Your Message</label>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sachin. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
